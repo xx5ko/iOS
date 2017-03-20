@@ -1,4 +1,3 @@
-//
 //  AppDelegate.swift
 //  Project
 //
@@ -6,18 +5,22 @@
 //  Copyright © 2017 Petko Chakov. All rights reserved.
 //
 
+
 import UIKit
 import CoreData
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        
+        GMSPlacesClient.provideAPIKey("AIzaSyCdApWihG96KoMTgfmOYpr03z01ywnOLp8")
+return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
