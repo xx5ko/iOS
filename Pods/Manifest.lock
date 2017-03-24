@@ -1,0 +1,88 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CHIPageControl (0.0.4):
+    - CHIPageControl/Aji (= 0.0.4)
+    - CHIPageControl/Aleppo (= 0.0.4)
+    - CHIPageControl/Chimayo (= 0.0.4)
+    - CHIPageControl/Fresno (= 0.0.4)
+    - CHIPageControl/Jalapeno (= 0.0.4)
+    - CHIPageControl/Jaloro (= 0.0.4)
+    - CHIPageControl/Paprika (= 0.0.4)
+    - CHIPageControl/Puya (= 0.0.4)
+  - CHIPageControl/Aji (0.0.4)
+  - CHIPageControl/Aleppo (0.0.4)
+  - CHIPageControl/Chimayo (0.0.4)
+  - CHIPageControl/Fresno (0.0.4)
+  - CHIPageControl/Jalapeno (0.0.4)
+  - CHIPageControl/Jaloro (0.0.4)
+  - CHIPageControl/Paprika (0.0.4)
+  - CHIPageControl/Puya (0.0.4)
+  - FBSDKCoreKit (4.20.2):
+    - Bolts (~> 1.7)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.2.0):
+    - GoogleMaps (= 2.2.0)
+    - GooglePlaces (= 2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - PeekPop (1.0.0)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CHIPageControl (~> 0.0.3)
+  - FBSDKCoreKit (~> 4.9)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - PeekPop (~> 1.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CHIPageControl: ff65dbd1923db7aa99a4da858f831f9a0633b711
+  FBSDKCoreKit: 82eac696eb6157da5f4266c3a241f00e9bd72471
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlacePicker: 345b1aabd42c9d6d9bf2369c1bae1234d903e764
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  PeekPop: dcac0f339476b99eb50f8e3bc584f332c744ecf1
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+PODFILE CHECKSUM: bc33d2f7b7cc1c23d2eab21f1f5909498586d72a
+
+COCOAPODS: 1.2.0

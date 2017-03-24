@@ -14,5 +14,6 @@ pod 'AFNetworking', '~> 3.0'
 pod 'FBSDKCoreKit', '~> 4.9'
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
 pod 'CHIPageControl', '~> 0.0.3'
+pod 'PeekPop', '~> 1.0'
 
 end
